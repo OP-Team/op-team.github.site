@@ -34,12 +34,15 @@ You could also use the following command on the local computer to see changes in
 	$ git commit
 	$ git push origin master
 	```
-
+	> **Note**: Once this site enable the **Travis CI Continuous Deployment**, the web page will automatic publish by CI server after commit changes in step 6.
+	> In this case, please skip above operation.
+	
 6. Sync changes to the github project:
 	```=shell
 	$ cd ..
 	$ git add [contents they need to be update]
 	$ git commit
+	$ git pull --rebase
 	$ git push origin master
 	```
 7. Browse [https://op-team.github.io](https://op-team.github.io) for our new awesome website!
