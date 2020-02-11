@@ -7,14 +7,14 @@ An official OP Team web site using [Hugo](https://gohugo.io/) and [Academic Kick
 
 ## Quickstart
 
-1. Complete the "[Build requirement](#Build_requirement)" part to ensure your environment meet the requirement.
+1. Complete the "[Build requirement](#build-requirement)" part to ensure your environment meet the requirement.
 2. Pull this repositroy:
 	```=shell
 	$ git pull git@github.com:OP-Team/op-team.github.site.git
 	$ cd op-team.github.site
 	$ git submodule update
 	```
-   **Note**: if you already have local repository, follow the "[Work with team](#Work with team)" section to update your local repository!
+   **Note**: if you already have local repository, follow the "[Work with team](#work-with-team)" section to update your local repository!
 
 3. Put some awesome content! Don't forget to check [Academic document](https://sourcethemes.com/academic/docs/get-started/) to know how to customize. 
 You could also use the following command on the local computer to see changes in action:
