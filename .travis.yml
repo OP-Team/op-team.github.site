@@ -4,9 +4,6 @@ install:
   - sudo dpkg -i hugo_extended_0.62.2_Linux-64bit.deb
 
 script:
-  - sed -i.bak '/^public\//d' .gitignore
-  - mv .gitignore.bak .gitignore
-  - git submodule update --init --recursive
   - hugo
   - chmod a+x deploy.sh
 
