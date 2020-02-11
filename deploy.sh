@@ -17,4 +17,6 @@ fi
 
 git add .
 git commit -m "Rebuild site"
+git remote -v
+pwd
 git push --force origin HEAD:master
