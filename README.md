@@ -1,5 +1,7 @@
 # OP-Team web site
 
+CI Build Status: [![Build Status](https://travis-ci.org/OP-Team/op-team.github.site.svg?branch=master)](https://travis-ci.org/OP-Team/op-team.github.site)
+
 An official OP Team web site using [Hugo](https://gohugo.io/) and [Academic Kickstart](https://sourcethemes.com/academic/).
 
 ## Overview
