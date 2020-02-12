@@ -14,7 +14,7 @@ An official OP Team web site using [Hugo](https://gohugo.io/) and [Academic Kick
 	```=shell
 	$ git pull git@github.com:OP-Team/op-team.github.site.git
 	$ cd op-team.github.site
-	$ git submodule update
+	$ git submodule update --init --recursive
 	```
    **Note**: if you already have local repository, follow the "[Work with team](#work-with-team)" section to update your local repository!
 
