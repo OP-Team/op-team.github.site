@@ -5,3 +5,6 @@
 	path = public
 	url = https://github.com/OP-Team/OP-Team.github.io.git
 	branch = master
+[submodule "themes/airspace-hugo"]
+	path = themes/airspace-hugo
+	url = https://github.com/momobin/airspace-hugo.git
