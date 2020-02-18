@@ -7,7 +7,7 @@ banner:
   button:
     enable : true
     label : "Github"
-    link : "https://github.com/OP-Team/ITRIX-Edge"
+    link : "https://github.com/ITRIX-Edge/ITRIX-Edge"
 
 ############################# About #################################
 about:

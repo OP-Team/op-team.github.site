@@ -15,7 +15,7 @@ about:
   button:
     enable : true
     label : "Specification Document"
-    link : "https://github.com/OP-Team/ITRIX-Edge/blob/master/docs/specification.md"
+    link : "https://github.com/itrix-edge/ITRIX-Edge/blob/master/docs/specification.md"
 
   funfacts:
 

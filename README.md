@@ -1,6 +1,6 @@
-# OP-Team web site
+# ITRIX-Edge web site
 
-CI Build Status: [![Build Status](https://travis-ci.org/OP-Team/op-team.github.site.svg?branch=master)](https://travis-ci.org/OP-Team/op-team.github.site)
+CI Build Status: [![Build Status](https://travis-ci.org/itrix-edge/itrix-edge.github.site.svg?branch=master)](https://travis-ci.org/itrix-edge/itrix-edge.github.site)
 
 An official OP Team web site using [Hugo](https://gohugo.io/) and [Academic Kickstart](https://sourcethemes.com/academic/).
 
@@ -12,8 +12,8 @@ An official OP Team web site using [Hugo](https://gohugo.io/) and [Academic Kick
 1. Complete the "[Build requirement](#build-requirement)" part to ensure your environment meet the requirement.
 2. Pull this repositroy:
 	```=shell
-	$ git pull git@github.com:OP-Team/op-team.github.site.git
-	$ cd op-team.github.site
+	$ git pull git@github.com:itrix-edge/itrix-edge.github.site.git
+	$ cd itrix-edge.github.site
 	$ git submodule update --init --recursive
 	```
    **Note**: if you already have local repository, follow the "[Work with team](#work-with-team)" section to update your local repository!
@@ -47,13 +47,13 @@ You could also use the following command on the local computer to see changes in
 	$ git pull --rebase
 	$ git push origin master
 	```
-7. Browse [https://op-team.github.io](https://op-team.github.io) for our new awesome website!
+7. Browse [https://itrix-edge.github.io](https://itrix-edge.github.io) for our new awesome website!
 
 ## Build requirement
 1. Git command line installed, [https://git-scm.com/](https://git-scm.com/)
 2. Install Hugo, [https://gohugo.io/getting-started/installing](https://gohugo.io/getting-started/installing)
 3. Any Markdown flavor editor, for editing site. [Sublime Text 3 + Markdown](https://www.itread01.com/content/1515506209.html), or [MarkdownPad](http://markdownpad.com/), or even [HackMD](https://hackmd.io/). Choose the one you prefer.
-4. Get repositories access right. This could be done by inviting your account from OP-Team. Contact the project admin for this.
+4. Get repositories access right. This could be done by inviting your account from project admin. Contact the project admin for this.
 
 **Note**: Additional customize works such as sass/javascript editing needs specifically required package installed, please see [Academic customization document](https://sourcethemes.com/academic/docs/customization/) for more information.
 
@@ -70,7 +70,7 @@ Also, the [Github page](https://pages.github.com/) has great information about c
 
 Every time before you make the change __and__ before push changes, please sync your local repository with github:
 ```=shell
-$ cd op-team.github.site
+$ cd itrix-edge.github.site
 $ git pull --rebase
 $ git submodule update
 
@@ -82,7 +82,7 @@ Otherwise, you may need to manually resolve file conflict.
 
 Copyright 2020 [ITRI OP Team](https://itri.org.tw).
 
-Site released under the [MIT](https://github.com/OP-TEAM/op-team.github.io/blob/master/LICENSE.md) license.
+Site released under the [MIT](https://github.com/itrix-edge/itrix-edge.github.io/blob/master/LICENSE.md) license.
 
 Content, posts and all technical document are copyright by authors, see document copyright notes or contact author before publishing them.
 
