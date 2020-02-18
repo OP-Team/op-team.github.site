@@ -1,11 +1,186 @@
-# Academic Website Builder
-# https://sourcethemes.com/academic/
-#
-# The presence of this file is for compatibility with Blogdown and Forestry.
-# If you are not using those tools, this file may be deleted.
-#
-# The actual configuration files are stored in the `config/_default/` folder.
-baseURL = "https://op-team.github.io/"
+################################# Default configuration ###################
+baseURL = "https://examplesite.com"
+title = "ITRIX-Edge"
+theme = "airspace-hugo"
+# post pagination
+paginate = "4"
+# post excerpt
+summaryLength = "30"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = ["fr"]
+
+
+#################################### Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/Ionicons/css/ionicons.min.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+  
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "About"
+URL = "about"
+weight = 1
+
+#[[menu.main]]
+#name = "Project"
+#URL = "project"
+#weight = 2
+
+#[[menu.main]]
+#name = "Service"
+#URL = "service"
+#weight = 3
+
+#[[menu.main]]
+#name = "Blog"
+#URL = "blog"
+#weight = 4
+
+#[[menu.main]]
+#weight = 5
+#name = "Pages"
+#hasChildren = true
+
+#  [[menu.main]]
+#  parent = "Pages"
+#  name = "FAQ"
+#  URL = "faq"
+
+#  [[menu.main]]
+#  parent = "Pages"
+#  name = "Pricing"
+#  URL = "pricing"
+  
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 6
+
+
+# footer menu
+[[menu.footer]]
+name = "About"
+URL = "about"
+weight = 1
+
+#[[menu.footer]]
+#name = "Project"
+#URL = "project"
+#weight = 2
+
+#[[menu.footer]]
+#name = "Service"
+#URL = "service"
+#weight = 3
+
+#[[menu.footer]]
+#name = "Pricing"
+#URL = "pricing"
+#weight = 4
+
+#[[menu.footer]]
+#name = "FAQ"
+#URL = "faq"
+#weight = 5
+
+#[[menu.footer]]
+#name = "Contact"
+#URL = "contact"
+#weight = 6
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "Contact Information"
+author = "Themefisher"
+# Contact Information
+phone = "+886-3-591-3682"
+time = "Monday 10:00 to Friday 16:00 "
+office = "Enter Building 53 and take the stairs to Office 103 on Floor 1"
+location = "195, Sec. 4, Chung Hsing Rd., Chutung, Hsinchu, Taiwan 31040"
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+# Google Analitycs
+google_analitycs_id = "Your ID"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+# search
+[params.search]
+enable = true
+
+# Navigation get start button
+[params.nav_button]
+enable = true
+label = "Get A Quote"
+link = "contact"
+
+# google map
+[params.gmap]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBWmUlky7VxvJfEB_K2L5Fuy78oz8s5EoY&q=places "
+map_latitude = "24.775338"
+map_longitude = "121.044338"
+map_marker = "images/marker.png"
+
+  
+############################# social site ########################
+[[params.social]]
+icon = "ion-social-google-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://github.com/OP-Team"
+
+[[params.social]]
+icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.facebook.com/groups/k8s.tw/"
+
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
 languageCode = "en-us"
-title = "OP Team"
-theme = "academic"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2020 [ITRIX-Edge](https://github.com/op-team) All Rights Reserved"
+
+################################ France Language ########################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+home = "Accueil"
+# copyright
+copyright = "Copyright &copy; 2020 [ITRIX-Edge](https://github.com/OP-Team/ITRIX-Edge) All Rights Reserved"

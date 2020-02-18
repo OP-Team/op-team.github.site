@@ -1,0 +1,68 @@
+################################## About #####################################
+about:
+  enable : true
+  image : "images/company/pic05.jpg"
+  title : "Overview of Edge Appliance"
+  content : "Edge solution for appliance: with integrated software & reference hardware design, built for following goal:
+          
+          
+          In the short term, we try to create an reasonable price micro GPU cluster, for edge computing applications. In this scope, we define an ethernet connected micro clusters inside the appliance, with extendable GPU enabled compute node from 3 to 24+; node management via Kubernetes; use custom software for easy application deployment; provide remote access design to make sure lower IT services in daily operation.
+          
+          
+          
+          Wth the long term goal, we try to make a inter-appliance and federation enabled edge, for application level load dispatch. In our edge cases, all distributed appliances in different place will be a one virtual appliance in application level, with seamless worker load dispatch & failover feature enabled."
+
+  button:
+    enable : true
+    label : "Specification Document"
+    link : "https://github.com/OP-Team/ITRIX-Edge/blob/master/docs/specification.md"
+
+  funfacts:
+
+      
+################################ feature #####################################
+features:
+  enable : true
+  title : "Interests"
+  feature_item:
+    # feature item loop
+    - icon : "ion-ios-eye" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Artificial Intelligence"
+
+      
+    # feature item loop
+    - icon : "ion-android-cloud-circle" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Computer Vision"
+ 
+      
+    # feature item loop
+    - icon : "ion-social-buffer" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Microservice"
+   
+
+    
+
+#################################### testimonial & mission vision #######################################
+testimonial:
+  enable : true
+  # testimonial content comes from "data/*/homepage.yml" file
+
+mission_vision:
+  enable : false
+  tabs:
+    # tab item loop
+    - name : "HW Block Diagram"
+      content : "With our hardware design, there are simple local clusters in the appliance, all device nodes are connected via Ethernet, and use internal gateway for internet access."
+      
+    # tab item loop
+    - name : "Reference Hardware"
+      content : "In our sample hardware, we choose NVIDIA Jetson AGX Xavier and Jetson TX2 as our compute nodes. The reason for those chosen is we're looking for GPU enabled low-cost devices for both GPU related computing and general computing purpose. Developers are able to use any other hardware that meets all requirements for this software. This selection guideline are also applied for OOBM control board: Raspberry Pi 4. Developers can change control board to any board that supports linux OS running plus ethernet & GPIO pins for compute node device control."
+      
+    # tab item loop
+    - name : "Software Architecture"
+      content : "Easy Configuration Idea for Single Appliance & Multiple Appliances Federation use cases Easy to integrated with Cloud Service Provider: Microsoft Azure, Google GCP, or Amazon AWS Easy Deployment Application deployment by Kubernetes ecosystem Federation support for multiple appliances applications Internal HA & Failover for applications."
+
+############################# call to action #################################
+cta:
+  enable : true
+  # call to action content comes from "data/*/homepage.yml"
