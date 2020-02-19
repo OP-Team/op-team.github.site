@@ -149,7 +149,7 @@ link = "contact"
 # google map
 [params.gmap]
 enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBWmUlky7VxvJfEB_K2L5Fuy78oz8s5EoY=places "
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCVdv0i6VZ0HVHRsMbl53zk4nOiyip9420=places "
 map_latitude = "24.775338"
 map_longitude = "121.044338"
 map_marker = "images/marker.png"

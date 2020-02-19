@@ -59,7 +59,7 @@ cta:
 funfacts:
   enable : true
   title : "Kubernetes Taiwan User Group"
-  description : "'Some Fact About our Kubernetes Taiwan User Group'"
+  description : "[facebook](https://www.facebook.com/groups/k8s.tw/)"
 
   funfact_item:
     # funfacts item loop
