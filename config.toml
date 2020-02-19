@@ -86,7 +86,7 @@ weight = 6
 # footer menu
 [[menu.footer]]
 name = "About"
-URL = "https://itrix-edge.github.io/about/"
+URL = "/about"
 weight = 1
 
 #[[menu.footer]]
