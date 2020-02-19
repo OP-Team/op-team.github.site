@@ -122,10 +122,11 @@ logo = "images/logo.png"
 description = "Contact Information"
 author = "Themefisher"
 # Contact Information
-phone = "+886-3-591-4568"
+phone = "+886-3-591-2191"
 time = "Monday 10:00 to Friday 16:00 "
 office = "Enter Building 53 and take the stairs to Office 103 on Floor 1"
 location = "195, Sec. 4, Chung Hsing Rd., Chutung, Hsinchu, Taiwan 31040"
+email = "Connyhong@itri.org.tw (Conny Hong)"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 # Google Analitycs
@@ -157,13 +158,16 @@ map_marker = "images/marker.png"
   
 ############################# social site ########################
 [[params.social]]
-icon = "ion-social-google-outline" #ionicon pack v2 : https://ionicons.com/v2/
+icon = "ion-social-github-outline" #ionicon pack v2 : https://ionicons.com/v2/
 link = "https://github.com/itrix-edge"
 
 [[params.social]]
 icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
 link = "https://www.facebook.com/groups/k8s.tw/"
 
+[[params.social]]
+icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "mailto: Connyhong@itri.org.tw"
 
 ################################ English Language ########################
 [Languages.en]

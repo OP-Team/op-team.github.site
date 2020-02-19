@@ -14,7 +14,8 @@ about:
   enable : true
   title : "What is ITRIX-Edge?"
   description : ""
-  content : "ITRIX-Edge leverages containers and kubernetes to edge software can easily connect to major cloud providers.The main focus of this project is to make deployment and maintanence easily. With the build in connection to cloud provider, users can easily connnect the edge to cloud."
+  content : "ITRIX-Edge leverages containers and kubernetes to edge software can easily connect to major cloud providers.The main focus of this project is to make deployment and maintanence easily. With the build in connection to cloud provider, users can easily connnect the edge to cloud.
+  Workload distributed between related Edge."
   image : "images/pic03.png"
 
 
@@ -34,7 +35,7 @@ portfolio:
   "
   button:
     enable : true
-    label : "View"
+    label : "Details"
     link : "about"
 
 
@@ -52,7 +53,7 @@ cta:
   content : "If you are associated hardware vendor, please consider help us to check our project compatibility. Once the software compatibility is verified, we'll put your hardware into our compatibility list. Provide reference hardware to us for testing purpose, are always welcome."
   button:
     enable : true
-    label : "Tell Us Your Story"
+    label : "Contact Us"
     link : "contact"
 
 ############################# Funfacts ###############################
